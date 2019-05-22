@@ -1,0 +1,95 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Which city us the capital of Israel",
+            "answers": [
+                {
+                    "correct": true,
+                    "value": "Jerusalem"
+                },
+                {
+                    "correct": false,
+                    "value": "Tel Aviv"
+                },
+                {
+                    "correct": false,
+                    "value": "Haiffa"
+                },
+                {
+                    "correct": false,
+                    "value": "Netivot"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Solve: 9 + 1 = ?",
+            "answers": [
+                {
+                    "correct": false,
+                    "value": "11"
+                },
+                {
+                    "correct": true,
+                    "value": "10"
+                },
+                {
+                    "correct": false,
+                    "value": "8"
+                },
+                {
+                    "correct": false,
+                    "value": "unknown"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "Where was the Eurovision 2019?",
+            "answers": [
+                {
+                    "correct": false,
+                    "value": "Tokyo,Japan"
+                },
+                {
+                    "correct": false,
+                    "value": "Rome,Italy"
+                },
+                {
+                    "correct": false,
+                    "value": "Paris,France"
+                },
+                {
+                    "correct": true,
+                    "value": "Tel-Aviv,Israel"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Sierra Leone is located on the continent?",
+            "answers": [
+                {
+                    "correct": true,
+                    "value": "Africa"
+                },
+                {
+                    "correct": false,
+                    "value": "Europe"
+                },
+                {
+                    "correct": false,
+                    "value": "Asia"
+                },
+                {
+                    "correct": false,
+                    "value": "South America"
+                }
+            ]
+        }
+
+    ]
+}
+
+

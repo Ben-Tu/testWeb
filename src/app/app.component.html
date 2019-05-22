@@ -1,0 +1,20 @@
+<div *ngIf="question">
+  <div>
+    <app-question [question]="question" (onAnswerClick)="setAnswer($event)">
+    </app-question>
+  </div>
+  <div>
+    <button (click)="prev()" [disabled]="!hasPrev">
+      Prev
+    </button>
+    <button (click)="next()" *ngIf="hasNext">
+      Next
+    </button>
+    <button (click)="done()" *ngIf="!hasNext">
+      Done
+    </button>
+  </div>
+  <div *ngIf="grade !== -1">
+    Your grade: {{grade}}
+  </div>
+</div>

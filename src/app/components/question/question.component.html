@@ -1,0 +1,10 @@
+<div *ngIf="question">
+  <h5>
+    {{question.question}}
+  </h5>
+  <span *ngFor="let a of question.answers; let i = index">
+    <input type="radio" name="answer" (click)="onAnswerClicked(i)" [checked]="question.userAnswer === i">{{a.value}}<br>
+    <br>
+  </span>
+
+</div>
